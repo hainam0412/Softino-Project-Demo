@@ -1,0 +1,75 @@
+@import "../var/var.scss";
+
+.footer {
+  p {
+    color: $text-color;
+  }
+
+  &__item {
+    margin-bottom: 3rem;
+    img {
+      width: 22.7rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      li {
+        padding-bottom: 2.5rem;
+      }
+    }
+  }
+
+  &__desc {
+    font-weight: 400;
+  }
+
+  &__info {
+    p {
+      margin-bottom: 2rem;
+    }
+
+    a {
+      color: $primary-color;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__subcribe {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem lightgrey;
+    padding: 4rem !important;
+    align-items: center;
+
+    &-title {
+      margin-bottom: 2rem;
+      h5 {
+        font-size: 2.4rem;
+        margin-bottom: 1.5rem;
+        letter-spacing: 0.2rem;
+      }
+    }
+
+    &-form {
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      input {
+        width: 100%;
+      }
+
+      a {
+        position: absolute;
+        right: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+$text-font: "Heebo", sans-serif;
+$head-font: "Titillium Web", sans-serif;
+$text-color: #1c1d3e;
+$primary-color: #ff512f;
+$text-grey: #5f5f5f;
+
+@mixin background {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

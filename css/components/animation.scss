@@ -1,0 +1,32 @@
+@import "../var/var.scss";
+
+.active-animated {
+  position: absolute;
+  animation: shine 1s infinite linear;
+  display: none;
+  left: 50%;
+  transform: translateX(calc(-50% - 0.2rem));
+
+  li {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin: 0 0.2rem;
+    background-color: $text-color;
+  }
+
+  & li:nth-child(2) {
+    background-color: $primary-color;
+  }
+
+  top: calc(100% + 0.2rem);
+}
+
+@keyframes shine {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

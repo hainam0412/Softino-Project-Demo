@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Titillium+Web:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <div class="nav wrapper">
+        <div class="nav__logo">
+          <a href="">
+            <img src="./images/logo-color-3.png" alt="logo" />
+          </a>
+        </div>
+
+        <ul class="nav__links nav__links-lg">
+          <li class="nav__link d-flex-bw active nav__link-hover">
+            <a>
+              <ul class="active-animated">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              Home
+            </a>
+
+            <div class="nav__link-dropdown">
+              <span class="dropdown-btn">+</span>
+            </div>
+
+            <ul class="sub-menu">
+              <li class="sub-menu-link"><a href="" id="">Home 1</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Home 2</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Home 3</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Home 4</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Home 5</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__link d-flex-bw nav__link-hover">
+            <a>
+              <ul class="active-animated">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              Pages
+            </a>
+
+            <div class="nav__link-dropdown">
+              <span class="dropdown-btn">+</span>
+            </div>
+
+            <ul class="sub-menu">
+              <li class="sub-menu-link"><a href="" id="">Team</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Team Single</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Faq</a></li>
+
+              <li class="sub-menu-hover sub-menu-link">
+                <a href="" id="">Element <span>+</span></a>
+
+                <ul class="sub-menu-2">
+                  <li><a href="">Accordion</a></li>
+                  <li><a href="">Blog Post</a></li>
+                  <li><a href="">Counter</a></li>
+                  <li><a href="">Featured Box</a></li>
+                  <li><a href="">Pricing Table</a></li>
+                  <li><a href="">Team</a></li>
+                  <li><a href="">Testimonials</a></li>
+                </ul>
+              </li>
+
+              <li class="sub-menu-link"><a href="" id="">Coming soon</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Error 404</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__link d-flex-bw nav__link-hover">
+            <a>
+              <ul class="active-animated">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              About Us
+            </a>
+
+            <div class="nav__link-dropdown">
+              <span class="dropdown-btn">+</span>
+            </div>
+
+            <ul class="sub-menu">
+              <li class="sub-menu-link"><a href="" id="">About Us 1</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">About Us 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__link d-flex-bw nav__link-hover">
+            <a>
+              <ul class="active-animated">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              Services
+            </a>
+
+            <div class="nav__link-dropdown">
+              <span class="dropdown-btn">+</span>
+            </div>
+
+            <ul class="sub-menu">
+              <li class="sub-menu-link"><a href="" id="">Services 1</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Services 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__link d-flex-bw nav__link-hover">
+            <a>
+              <ul class="active-animated">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              Blogs
+            </a>
+
+            <div class="nav__link-dropdown">
+              <span class="dropdown-btn">+</span>
+            </div>
+
+            <ul class="sub-menu">
+              <li class="sub-menu-link"><a href="" id="">Blog Grid 2 </a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Blog Left Sidebar 2</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Blog Right Sidebar 2</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Blog Single</a></li>
+            </ul>
+          </li>
+
+          <li class="nav__link d-flex-bw nav__link-hover">
+            <a>
+              <ul class="active-animated">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+              Contact Us
+            </a>
+
+            <div class="nav__link-dropdown">
+              <span class="dropdown-btn">+</span>
+            </div>
+
+            <ul class="sub-menu">
+              <li class="sub-menu-link"><a href="" id="">Contact 1</a></li>
+
+              <li class="sub-menu-link"><a href="" id="">Contact 2</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="nav__burger-button nav__burger-button-lg">
+          <div class="burger-row-1"></div>
+          <div class="burger-row-2"></div>
+          <div class="burger-row-3"></div>
+        </div>
+
+        <a href="" class="nav__login btn btn-round btn-primary btn-up">Login</a>
+      </div>
+    </nav>
+
+    <!-- Main content of page -->
+    <main>
+      <!-- header of the page -->
+      <section class="header d-flex-bw wrapper">
+        <div class="col-12 col-lg-6 header__image">
+          <img class="full-percent" src="./images/header image.png" alt="header image" />
+        </div>
+
+        <div class="col-12 col-lg-6 header__content">
+          <h3>POWERFULL AND CRETIVE DESIGN</h3>
+          <h1>Grow Your Software With <span class="primary-color">“Softino”</span></h1>
+          <p>
+            Softino is an all-new stylish Software For device that can show you things. awareness,
+            drive traffic, connect with customers.
+          </p>
+        </div>
+      </section>
+
+      <!-- video promotion of page -->
+      <section class="video-prom d-flex-center wrapper">
+        <div class="col-12 video-prom-item text-center">
+          <a href="">
+            <img src="./images/01.png" alt="" />
+          </a>
+
+          <div class="video-prom-playButton">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="col-12 video-prom-content text-center">
+          <p>
+            Softino Is Built For <span class="primary-color">Software</span>Like You. With Useful
+            Features An Intuitive Interface And
+            <span class="primary-color">Powerful Design</span> Built By A Community Of Developers,
+            It Helps You Focus On What You Do Best.
+          </p>
+        </div>
+      </section>
+
+      <!-- Services container -->
+      <section class="services d-flex-bw wrapper">
+        <div class="col-12 col-lg-4 col-md-6 services__item">
+          <img src="./images/06.png" alt="design" />
+          <h5>Design</h5>
+          <p>
+            Top quality Software services, labore et dolore magna ali qua Lorem ipsum dolor sit
+            amet.
+          </p>
+
+          <div class="services__item-background"></div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 services__item">
+          <img src="./images/07.png" alt="drag and drop" />
+          <h5>Drag And Drop</h5>
+          <p>
+            Top quality Software services, labore et dolore magna ali qua Lorem ipsum dolor sit
+            amet.
+          </p>
+
+          <div class="services__item-background"></div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 services__item">
+          <img src="./images/08.png" alt="resolution" />
+          <h5>High Resolution</h5>
+          <p>
+            Top quality Software services, labore et dolore magna ali qua Lorem ipsum dolor sit
+            amet.
+          </p>
+
+          <div class="services__item-background"></div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 services__item">
+          <img src="./images/04.png" alt="app" />
+          <h5>App Integration</h5>
+          <p>
+            Top quality Software services, labore et dolore magna ali qua Lorem ipsum dolor sit
+            amet.
+          </p>
+
+          <div class="services__item-background"></div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 services__item">
+          <img src="./images/03.png" alt="marketing" />
+          <h5>Marketing</h5>
+          <p>
+            Top quality Software services, labore et dolore magna ali qua Lorem ipsum dolor sit
+            amet.
+          </p>
+
+          <div class="services__item-background"></div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 services__item">
+          <img src="./images/09.png" alt="support" />
+          <h5>Helping Support</h5>
+          <p>
+            Top quality Software services, labore et dolore magna ali qua Lorem ipsum dolor sit
+            amet.
+          </p>
+
+          <div class="services__item-background"></div>
+        </div>
+      </section>
+
+      <!-- Working process -->
+      <section class="work text-center">
+        <div class="wrapper">
+          <h2>Three Simple Step To Started Working Process</h2>
+
+          <div class="work__container d-flex-bw">
+            <div class="col-12 col-lg-4 work__item">
+              <div class="work__icon">
+                <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                <div class="work__icon-counter">01</div>
+              </div>
+
+              <h4 class="primary-color">Research Project</h4>
+              <p>
+                Nostrud exercitat ullamco lorem ipsum dolor sit amet, consece adipising elit, sed
+                doeo eiusmod
+              </p>
+            </div>
+
+            <div class="col-12 col-lg-4 work__item">
+              <div class="work__icon">
+                <i class="fa fa-rocket" aria-hidden="true"></i>
+                <div class="work__icon-counter">02</div>
+              </div>
+
+              <h4 class="primary-color">Result</h4>
+              <p>
+                Nostrud exercitat ullamco lorem ipsum dolor sit amet, consece adipising elit, sed
+                doeo eiusmod
+              </p>
+            </div>
+
+            <div class="col-12 col-lg-4 work__item">
+              <div class="work__icon">
+                <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                <div class="work__icon-counter">03</div>
+              </div>
+
+              <h4 class="primary-color">Result</h4>
+              <p>
+                Nostrud exercitat ullamco lorem ipsum dolor sit amet, consece adipising elit, sed
+                doeo eiusmod
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team member -->
+      <section class="team wrapper">
+        <h2>
+          Meet Our Expert <span class="primary-color">Team Member</span> Will Ready For Your Service
+        </h2>
+
+        <div class="team__container d-flex-bw row">
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="team__item">
+              <div class="team__img">
+                <img class="full-percent" src="./images/team-1.jpg" alt="" />
+
+                <div class="team__img-link">
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </div>
+              </div>
+
+              <p class="team__label">Manager</p>
+              <p class="primary-color team__name">Tom Roadse</p>
+
+              <ul class="team__social">
+                <li>
+                  <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="team__item">
+              <div class="team__img">
+                <img class="full-percent" src="./images/team-2.jpg" alt="" />
+
+                <div class="team__img-link">
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </div>
+              </div>
+
+              <p class="team__label">Manager</p>
+              <p class="primary-color team__name">Tom Roadse</p>
+
+              <ul class="team__social">
+                <li>
+                  <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="team__item">
+              <div class="team__img">
+                <img class="full-percent" src="./images/team-3.jpg" alt="" />
+
+                <div class="team__img-link">
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </div>
+              </div>
+
+              <p class="team__label">Manager</p>
+              <p class="primary-color team__name">Tom Roadse</p>
+
+              <ul class="team__social">
+                <li>
+                  <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="team__item">
+              <div class="team__img">
+                <img class="full-percent" src="./images/team-4.jpg" alt="" />
+
+                <div class="team__img-link">
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </div>
+              </div>
+
+              <p class="team__label">Manager</p>
+              <p class="primary-color team__name">Tom Roadse</p>
+
+              <ul class="team__social">
+                <li>
+                  <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Choose Price -->
+      <section class="price">
+        <div class="d-flex-bw wrapper">
+          <div class="col-12 col-lg-4 price__inner">
+            <h2>Choose Your Best Affordable <span class="primary-color">Pricing Plan</span></h2>
+            <p>
+              Softino Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi
+            </p>
+
+            <div class="price__tab">
+              <a href="" class="btn btn-tab btn-round btn-selected">Monthly</a>
+              <a href="" class="btn btn-tab btn-round">Yearly</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 price__item text-center">
+            <div class="price__starter">
+              <div class="price__item-number">
+                <span>$</span>
+                <span>33</span>
+              </div>
+
+              <span class="price__item-title">Monthly Package</span>
+              <h5 class="primary-color">STARTER</h5>
+              <p>
+                15 Analytics Compaign <br />
+                Unlimited Site licenses <br />
+                1 Database <br />
+                10 Free Optimization <br />
+                Html5 + Css3 <br />
+                24/7 Customer Support <br />
+              </p>
+
+              <a href="" class="btn btn-full-round btn-primary btn-up">Purchase Now</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 price__item text-center">
+            <div class="price__premium">
+              <div class="price__item-number">
+                <span>$</span>
+                <span>55</span>
+              </div>
+
+              <span class="price__item-title">Monthly Package</span>
+              <h5 class="primary-color">STARTER</h5>
+              <p>
+                15 Analytics Compaign <br />
+                Unlimited Site licenses <br />
+                1 Database <br />
+                10 Free Optimization <br />
+                Html5 + Css3 <br />
+                24/7 Customer Support <br />
+              </p>
+
+              <a href="" class="btn btn-full-round btn-up">Purchase Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feed back -->
+
+      <section class="feedback">
+        <div class="wrapper">
+          <h2>You Can See Our Clients Feedback <span class="primary-color">What You Say?</span></h2>
+
+          <div class="feedback__container d-flex">
+            <div class="col-12 col-sm-2 feedback__control">
+              <input type="radio" name="feedback" id="feedback-1" value="0" />
+              <label for="feedback-1">
+                <img src="./images/feedback-mini-1.jpg" alt="" />
+              </label>
+
+              <input type="radio" name="feedback" id="feedback-2" value="1" />
+              <label for="feedback-2">
+                <img src="./images/feedback-mini-2.jpg" alt="" />
+              </label>
+
+              <input type="radio" name="feedback" id="feedback-3" value="2" />
+              <label for="feedback-3">
+                <img src="./images/feedback-mini-3.jpg" alt="" />
+              </label>
+            </div>
+
+            <div class="col-12 col-sm-10 feedback__content-wrapper d-flex">
+              <div class="feedback__item d-flex feedback__item-show">
+                <div class="col-4 col-sm-3 feedback__item-img">
+                  <img src="./images/feedback-mini-1.jpg" alt="" />
+                </div>
+
+                <div class="col-12 col-sm-9 feedback__item-content">
+                  <p class="feedback__item-inner">
+                    Recommended Professional and great experience, Nam pulvinar vitae neque et
+                    porttitor, Praesent sed nisi eleifend, Consectetur adipisicing elit, sed do
+                    eiusmodas temporo incididunt Praesent sed nisi eleifend, Consectetur adipisicing
+                    elit,
+                  </p>
+
+                  <p class="feedback__item-author primary-color">
+                    Lana Roadse
+                  </p>
+
+                  <p class="feedback__item-label">
+                    CEO of Softino
+                  </p>
+                </div>
+              </div>
+
+              <div class="feedback__item d-flex">
+                <div class="col-4 col-sm-3 feedback__item-img">
+                  <img src="./images/feedback-mini-2.jpg" alt="" />
+                </div>
+
+                <div class="col-12 col-sm-9 feedback__item-content">
+                  <p class="feedback__item-inner">
+                    Recommended Professional and great experience, Nam pulvinar vitae neque et
+                    porttitor, Praesent sed nisi eleifend, Consectetur adipisicing elit, sed do
+                    eiusmodas temporo incididunt Praesent sed nisi eleifend, Consectetur adipisicing
+                    elit,
+                  </p>
+
+                  <p class="feedback__item-author primary-color">
+                    Lana Roadse
+                  </p>
+
+                  <p class="feedback__item-label">
+                    CEO of Softino
+                  </p>
+                </div>
+              </div>
+
+              <div class="feedback__item d-flex">
+                <div class="col-4 col-sm-3 feedback__item-img">
+                  <img src="./images/feedback-mini-3.jpg" alt="" />
+                </div>
+
+                <div class="col-12 col-sm-9 feedback__item-content">
+                  <p class="feedback__item-inner">
+                    Recommended Professional and great experience, Nam pulvinar vitae neque et
+                    porttitor, Praesent sed nisi eleifend, Consectetur adipisicing elit, sed do
+                    eiusmodas temporo incididunt Praesent sed nisi eleifend, Consectetur adipisicing
+                    elit,
+                  </p>
+
+                  <p class="feedback__item-author primary-color">
+                    Lana Roadse
+                  </p>
+
+                  <p class="feedback__item-label">
+                    CEO of Softino
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Counter -->
+
+      <section class="counter">
+        <div class="wrapper d-flex-bw">
+          <div class="counter__item col-12 col-sm-6 col-lg-3">
+            <div class="counter__item-number">
+              <span class="number primary-color">2304</span>
+              <span>+</span>
+            </div>
+
+            <p>Project Done</p>
+          </div>
+
+          <div class="counter__item col-12 col-sm-6 col-lg-3">
+            <div class="counter__item-number">
+              <span class="number primary-color">3585</span>
+              <span>+</span>
+            </div>
+
+            <p>Success Rate</p>
+          </div>
+
+          <div class="counter__item col-12 col-sm-6 col-lg-3">
+            <div class="counter__item-number">
+              <span class="number primary-color">1365</span>
+              <span>+</span>
+            </div>
+
+            <p>Awards</p>
+          </div>
+
+          <div class="counter__item col-12 col-sm-6 col-lg-3">
+            <div class="counter__item-number">
+              <span class="number primary-color">4328</span>
+              <span>+</span>
+            </div>
+
+            <p>Happy Client</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blog -->
+
+      <section class="blog wrapper">
+        <h2>Have A Look Creative Blogs</h2>
+        <p class="text-center blog__header-title">
+          Softino Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderi
+        </p>
+
+        <div class="blog__container d-flex-bw row">
+          <div class="col-12 col-lg-4">
+            <div class="blog__main">
+              <div class="blog__main-img">
+                <img class="full-percent" src="./images/blog-1.jpg" alt="" />
+
+                <a href="">Photo</a>
+              </div>
+
+              <div class="blog__desc">
+                <div class="blog__main-date d-flex">
+                  <p>
+                    <span class="primary-color"
+                      ><i class="fa fa-calendar" aria-hidden="true"></i
+                    ></span>
+                    &nbsp;
+                    <span>23 Jan, 2019</span>
+                  </p>
+
+                  <p>
+                    <span class="primary-color"
+                      ><i class="fa fa-user-o" aria-hidden="true"></i
+                    ></span>
+
+                    &nbsp;
+                    <span>By ThemeHt</span>
+                  </p>
+                </div>
+
+                <div class="blog__main-title">
+                  <a href="">Softino Performance Based Software</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="blog__main">
+              <div class="blog__main-img">
+                <img class="full-percent" src="./images/blog-2.jpg" alt="" />
+
+                <a href="">Photo</a>
+              </div>
+
+              <div class="blog__desc">
+                <div class="blog__main-date d-flex">
+                  <p>
+                    <span class="primary-color"
+                      ><i class="fa fa-calendar" aria-hidden="true"></i
+                    ></span>
+                    &nbsp;
+                    <span>23 Jan, 2019</span>
+                  </p>
+
+                  <p>
+                    <span class="primary-color"
+                      ><i class="fa fa-user-o" aria-hidden="true"></i
+                    ></span>
+
+                    &nbsp;
+                    <span>By ThemeHt</span>
+                  </p>
+                </div>
+
+                <div class="blog__main-title">
+                  <a href="">Latest Software Design In Features</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4">
+            <div class="blog__side">
+              <div class="blog__side-item">
+                <div class="blog__side-item-img">
+                  <img src="./images/blog-1.jpg" alt="" />
+                </div>
+
+                <div class="blog__side-item-content">
+                  <p class="blog__side-item-author">
+                    By ThemeHt
+                  </p>
+
+                  <a href="" class="blog__side-item-link">
+                    Softino Performance Based Software
+                  </a>
+                </div>
+              </div>
+
+              <div class="blog__side-item">
+                <div class="blog__side-item-img">
+                  <img src="./images/blog-2.jpg" alt="" />
+                </div>
+
+                <div class="blog__side-item-content">
+                  <p class="blog__side-item-author">
+                    By ThemeHt
+                  </p>
+
+                  <a href="" class="blog__side-item-link">
+                    latest Software design in features
+                  </a>
+                </div>
+              </div>
+
+              <div class="blog__side-item">
+                <div class="blog__side-item-img">
+                  <img src="./images/blog-3.jpg" alt="" />
+                </div>
+
+                <div class="blog__side-item-content">
+                  <p class="blog__side-item-author">
+                    By ThemeHt
+                  </p>
+
+                  <a href="" class="blog__side-item-link">
+                    All Powerful Design feature In Softino
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+        <div class="wrapper d-flex">
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="footer__item">
+              <img src="./images/logo-color-3.png" alt="" />
+
+              <p class="footer__desc">
+                Softino Software Landing Page Is fully responsible, Build whatever you like with the
+                Softino, Softino is the creative, modern HTML5 Template suitable for Your business.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="footer__item d-flex-bw footer__list">
+              <ul class="col-6">
+                <li><a href="">About Us </a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Team</a></li>
+                <li><a href="">Team Single</a></li>
+                <li><a href="">Contact Us</a></li>
+              </ul>
+
+              <ul class="col-6">
+                <li><a href="">Blog </a></li>
+                <li><a href="">Faq</a></li>
+                <li><a href="">Error 404</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4 col-md-12">
+            <div class="footer__item footer__info">
+              <p>Address: <strong>423B, Road Wordwide Country, USA</strong></p>
+
+              <p>Email: <a href="">themeht23@gmail.com</a></p>
+              <p>Phone: <a href="">+91-234-567-8900</a></p>
+              <p>Fax: <a href="">+91-234-567-8900</a></p>
+            </div>
+          </div>
+
+          <div class="col-12 footer__subcribe d-flex-bw">
+            <div class="footer__subcribe-title col-12 col-lg-6">
+              <h5>Subscribe Our Newsletter</h5>
+              <p>Get started for 1 Month free trial No Purchace required.</p>
+            </div>
+
+            <div class="col-lg-6 col-12 footer__subcribe-form">
+              <input type="text" class="form-control" placeholder="Email Address" />
+              <a href="" class="btn btn-primary btn-round btn-left">Subcribe</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <a id="toTopButton" href="#top" class="btn btn-round btn-toTop" hidden>
+      <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+    </a>
+
+    <script src="./script/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+@import "../var/var.scss";
+
+body {
+  font-family: $text-font;
+  color: $text-color;
+}
+
+.wrapper {
+  padding: 7.6rem 2rem;
+}
+
+.primary-color {
+  color: #ff512f;
+}
+
+p {
+  line-height: 3rem;
+  color: #5f5f5f;
+  letter-spacing: 0.1rem;
+}

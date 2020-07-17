@@ -1,0 +1,29 @@
+.header {
+  padding-top: 14.5rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+    padding-top: 2rem;
+
+    h3 {
+      font-weight: 500;
+      font-size: 2rem;
+      padding: 0.7rem 1.5rem;
+      background-color: #ffb58c;
+      margin-bottom: 1rem;
+      border-top-left-radius: 7px;
+      border-bottom-right-radius: 7px;
+    }
+
+    h1 {
+      font-size: 6rem;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin-bottom: 3rem;
+    }
+  }
+}

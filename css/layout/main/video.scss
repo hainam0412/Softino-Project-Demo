@@ -1,0 +1,56 @@
+@import "../../var/var.scss";
+
+.video-prom {
+  &-item {
+    position: relative;
+    margin-bottom: 5.5rem;
+
+    img {
+      width: 100%;
+      max-width: 75.3rem;
+      margin: 0 auto;
+    }
+  }
+
+  &-playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    border: 1rem solid #e74b2c;
+    background-color: $primary-color;
+    border-radius: 50%;
+    animation: shadow 2s infinite linear;
+
+    i {
+      color: #fff;
+    }
+
+    @keyframes shadow {
+      0% {
+        box-shadow: 0 0 1rem green;
+      }
+      50% {
+        box-shadow: 0 0 20rem lightgreen;
+      }
+      100% {
+        box-shadow: 0 0 80rem lightgreen;
+      }
+    }
+  }
+
+  &-content p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 3rem;
+    line-height: 4.8rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    color: #1c1d3e;
+  }
+}
