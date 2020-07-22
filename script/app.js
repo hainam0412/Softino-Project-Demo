@@ -131,7 +131,7 @@ function slideFeedback() {
   }
 }
 
-setInterval(slideFeedback, 3000);
+setInterval(slideFeedback, 6000);
 
 //Set counter number from document load
 
