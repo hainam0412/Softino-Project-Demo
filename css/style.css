@@ -1286,6 +1286,7 @@ nav {
 }
 .feedback__item:not(.feedback__item-show) {
   transform: translateX(100%);
+  opacity: 0;
 }
 .feedback__item {
   position: absolute;
